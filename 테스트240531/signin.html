@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복싱운동기구판매</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="loginHeader gnb1">
+            <a href="signin.html">회원가입</a>
+        </div>
+        <div class="brand-logo1">
+            <a href="index.html">
+                <img src="images/boxing.png" alt="복싱글러브">
+            </a>
+        </div>
+          <!-- /.brand-logo -->
+            <div class="promo_model1">
+                <img src="images/main.jpg" alt="메인 창">
+            </div>
+        <nav>
+            <ul class="gnb1"><!-- gnb : global navigation bar -->
+                <li>
+                    <a href="#">샌드백</a>
+                </li>
+                <li>
+                    <a href="#">글러브</a>
+                </li>
+                <li>
+                    <a href="#">보호용품</a>
+                </li>
+                <li>
+                    <a href="#">기타용품</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <article>
+                
+                <div>
+                    <h2 class="article_title">회원가입</h2>
+                    <fieldset>
+                        <legend>회원가입</legend>
+                    <form method="post" action="http://localhost:3000/signup">
+                        <div id="signup_form" class="w400 mx_auto border">
+                            <div  class="d-flex items-center gap-1  my-10">
+                                <label for="user_id">아이디(이메일)</label>
+                                <input type="text" id="user_id" name="user_id" class="bordered flex-1 py-1" >
+                            </div>
+                            <div class="d-flex items-center gap-1  my-10">
+                                <label for="user_pwd">비밀번호</label>
+                                <input type="password" id="user_pwd" name="user_pwd" class="bordered  flex-1 py-1">
+                            </div>
+                            <div class="d-flex items-center gap-1  my-10">
+                                <label for="user_pwd2">비밀번호 확인</label>
+                                <input type="password" id="user_pwd2" name="user_pwd2" class="bordered  flex-1 py-1">
+                            </div>
+                            <div class="d-flex items-center gap-1  my-10">
+                                <label for="user_name">이름</label>
+                                <input type="text" id="user_name" name="user_name" class="bordered  flex-1 py-1">
+                            </div>
+                            <div class="d-flex items-center gap-1  my-10">
+                                <label for="user_phone">휴대폰 번호</label>
+                                <input type="tel" id="user_phone" name="user_phone" class="bordered  flex-1 py-1">
+                            </div>
+                        
+                            <div class="d-flex items-center gap-1  my-10">
+                                <label class="flex-1" for="says">모두확인하였으며동의합니다.
+                                    <input type="checkbox" class="agree bordered py-1" id="says">
+                                </label>
+                            </div>
+                            <div class="d-flex items-center gap-1  my-10 justify-center" >
+                                <input type="submit" class="px-2 py-1 bg_blue text-white rounded" value="로그인">
+                                <a href="#">ID/PW찾기</a>
+                            </div>
+                        </div>
+                    </form>
+                    </fieldset>
+                </div>
+            </article>
+
+
+    </main>
+    <aside>
+        <nav>
+            <ul id="snb1"><!-- side navigation bar -->
+                <li>
+                    <a href="#">회사소개</a>
+                </li>
+                <li>
+                    <a href="#">이용약관</a>
+                </li>
+                <li>
+                    <a href="#">개인정보취급방침</a>
+                </li>
+                <li>
+                    <a href="#">무단이메일수집거부</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <footer>
+        <div class="site-info1">
+            <div class="footer-logo"><img src="images/footer.jpg" alt="snl"></div>
+            <p class="address">광주 북구 신용동 첨단 2지구 호반복싱상가 3F</p>
+            <p class="copy-sign">copyright &copy; Boxing&trade; all rights reserved.</p>
+        </div>        
+    </footer>
+
+    
+</body>
+</html>

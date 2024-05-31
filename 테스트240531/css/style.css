@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paqui{
+    text-align: center;
+}
+
+.loginHeader1{
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+.brand-logo1, .promo_model1{
+    display: flex;
+    justify-content: center;
+}
+
+.promo_model1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+.gnb1{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    color: black;
+    gap: 2rem;
+    height: 60px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gnb1 a:hover {
+    color: aqua;
+}
+#snb1{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    color:black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap:1rem;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    align-items: center;
+}
+.site-info1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.address1, .copy-sign1{
+    color: white;
+    font-size: 12px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+.gap-2{
+    gap: 2rem;
+}
+
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.px-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.bg_blue{
+    background-color: blue;
+}
+.text-white{
+    color: white;
+}
+.rounded{
+    border-radius: 50%;
+}
+
+
+/*--------------header top-------------------*/
+
+.container{
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+}
+
+.items-center{
+    align-items: center;
+}
+
+#header_top{
+    margin: 0 auto;
+    max-width: 1440px ;
+}
+
+
+.promotion{
+    position: relative;
+    /*background-color: orange;*/
+    height: 335px;
+}
+#fee, #cast{
+    width: 600px;
+    margin: 0 auto;
+}
+
+th, td {
+    text-align: center;
+    padding: 15px 0;
+    vertical-align: middle;
+}
+
+caption{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align : center;
+    margin-bottom: 10px;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#cast{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+th{
+    background-color: beige;
+}
+
+
+
+.contents h2{
+    font-size: 20px; 
+    margin: 20px;
+} 
+
+.mx_auto{
+    margin: 0 auto;
+} 
+
+.w800{
+    max-width: 800px;
+}
+
+/* 로그인 폼 */
+
+.article_title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+legend{
+    /* font-size: 0px; */
+    /* display: none; */
+    position: absolute;
+    left: -1000px;
+}
+
+input{
+    border: 1px solid lightgray;
+}
+
+.w400{
+    max-width:  400px;
+}
+
+label{
+    width:100px;
+    /* background-color: orange; */
+}
+
+.border{
+    border: 1px solid white;
+}
+
+.form_container{
+    max-width: 600px; /* ~599px 이하는, 100%로 동작*/
+    margin: 0 auto;
+}
+
+.border-1{
+    border-width: 1px;
+}
+
+.solid-gray{
+    border-color: gray;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
